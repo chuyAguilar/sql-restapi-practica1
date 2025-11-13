@@ -1,0 +1,11 @@
+para iniciar el proyecto asi pelon es npm init -y
+despues el primer modulo que vamos a instalar es express asi que usamos npm i express
+para hacer que el servidor se actualice por nuevos cambios instalamos nodemos con npm i nodemon -D
+
+para entrar a mysql tengo un contenedor en docker con una imagen de mysql, para entrar primero se corre el contenedor y luego se usa el comando:
+docker exec -it mysql mysql -u root -p
+la contraseña es 1234
+
+ahora instalaremos mysql2 usando el comando npm i mysql2, el 2 es por que es la segunda version de la libreria.
+
+instalamos dotenv con npm i dotenv, esto nos permite leer las variables deste .env
